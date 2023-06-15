@@ -13,6 +13,6 @@ end
 
 [X,Y]=m_ll2xy(long,lat,'clip','on');  
 
-hold on; trimesh(tri,X,Y,z,'facecolor', 'w'); 
+hold on; trimesh(tri,X,Y,z,'facecolor', 'none'); 
 
 end
